@@ -1,9 +1,9 @@
 ;;; klere-theme.el --- A dark theme with lambent color highlights and incremental grays
 
-;; Copyright (C) 2018, Wamm K. D.
+;; Copyright (C) 2018,2020, Wamm K. D.
 
 ;; Author: Wamm K. D. <jaft.r@outlook.com>
-;; Homepage: https://github.com/WammKD/emacs-klere-theme
+;; Homepage: https://codeberg.org/WammKD/emacs-klere-theme
 ;; Version: 0.1
 ;; Package-Requires: ((emacs "24"))
 ;; Started with emacs-theme-generator, https://github.com/mswift42/theme-creator.
