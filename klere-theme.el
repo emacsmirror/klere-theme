@@ -1,6 +1,6 @@
 ;;; klere-theme.el --- A dark theme with lambent color highlights and incremental grays
 
-;; Copyright (C) 2018, Jean Libète
+;; Copyright (C) 2018,2020, Jean Libète
 
 ;; Author: Jean Libète <tomenzgg@mail.mayfirst.org>
 ;; Homepage: https://github.com/tomenzgg/emacs-klere-theme
