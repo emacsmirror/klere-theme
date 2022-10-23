@@ -168,7 +168,7 @@
         `(magit-item-highlight                     ((,class :background ,bg4)))
         `(magit-section-heading                    ((,class (:foreground ,keyword :weight bold))))
         `(magit-hunk-heading                       ((,class (:background ,bg4))))
-        `(magit-section-highlight                  ((,class (:background ,bg3))))
+        `(magit-section-highlight                  ((,class (:background ,bg4))))
         `(magit-hunk-heading-highlight             ((,class (:background ,bg4))))
         `(magit-diff-context-highlight             ((,class (:background ,bg4 :foreground ,fg3))))
         `(magit-diffstat-added                     ((,class (:foreground ,type))))
