@@ -118,10 +118,13 @@
         `(org-block                                ((,class (:foreground ,fg3 :background ,org-bg1))))
         `(org-quote                                ((,class (:inherit org-block :slant italic))))
         `(org-verse                                ((,class (:inherit org-block :slant italic))))
-        `(org-todo                                 ((,class (:box (:line-width 1 :color ,fg3) :foreground ,keyword :bold t))))
-        `(org-done                                 ((,class (:box (:line-width 1 :color ,bg4) :bold t :foreground ,bg5))))
         `(org-block-begin-line                     ((,class (:foreground ,org-block-begin-fg :background ,org-bg2
                                                              :box (:line-width (3 . 2) :color ,org-bg2) :inherit org-meta-line))))
+        `(org-todo                                 ((,class (:width condensed :height 0.9 :foreground ,org-bg1 :background ,keyword :bold t
+                                                             :box (:line-width 2 :color ,keyword)))))
+        `(org-done                                 ((,class (:width condensed :height 0.9 :foreground ,fg1 :background ,bg5 :bold nil
+                                                             :box (:line-width 2 :color ,bg5)))))
+        `(org-headline-done                        ((,class (:foreground ,comment :strike-through t :slant italic))))
         `(org-warning                              ((,class (:underline t :foreground ,warning))))
         `(org-agenda-structure                     ((,class (:weight bold :foreground ,fg3 :box (:color ,fg4) :background ,bg4))))
         `(org-agenda-date                          ((,class (:foreground ,var :height 1.1 ))))
