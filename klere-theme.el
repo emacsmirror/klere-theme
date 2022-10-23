@@ -114,7 +114,7 @@
                                                              :box (:line-width 1 :color ,org-date-outline) :inherit fixed-pitch))))
         `(org-footnote                             ((,class (:underline t :foreground ,fg4))))
         `(org-link                                 ((,class (:underline t :foreground ,type ))))
-        `(org-special-keyword                      ((,class (:foreground ,func))))
+        `(org-special-keyword                      ((,class (:foreground ,func :overline t :height 0.95 :width condensed))))
         `(org-block                                ((,class (:foreground ,fg3 :background ,org-bg1))))
         `(org-quote                                ((,class (:inherit org-block :slant italic))))
         `(org-verse                                ((,class (:inherit org-block :slant italic))))
