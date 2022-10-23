@@ -107,6 +107,7 @@
         `(org-level-6                              ((,class (:foreground ,func))))
         `(org-level-7                              ((,class (:foreground ,str))))
         `(org-level-8                              ((,class (:foreground ,var))))
+        `(org-ellipsis                             ((,class ())))
         `(org-date                                 ((,class (:height 0.9 :foreground ,org-date-fg :background ,org-bg1
                                                              :box (:line-width 1 :color ,org-date-outline) :inherit fixed-pitch))))
         `(org-footnote                             ((,class (:underline t :foreground ,fg4))))
@@ -263,6 +264,9 @@
         `(jde-java-font-lock-modifier-face         ((t (:foreground ,key3))))
         `(jde-jave-font-lock-protected-face        ((t (:foreground ,keyword))))
         `(jde-java-font-lock-number-face           ((t (:foreground ,var))))))
+ (custom-theme-set-variables
+  'klere
+  '(org-ellipsis " ▼"))
 
 ;;;###autoload
 (when load-file-name
