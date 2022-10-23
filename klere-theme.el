@@ -182,7 +182,7 @@
         `(magit-hunk-heading                       ((,class (:background ,bg4))))
         `(magit-section-highlight                  ((,class (:background ,bg4))))
         `(magit-hunk-heading-highlight             ((,class (:background ,bg4))))
-        `(magit-diff-context-highlight             ((,class (:background ,bg4 :foreground ,fg3))))
+        `(magit-diff-context-highlight             ((,class (:foreground "gray50"  :background ,bg4))))
         `(magit-diffstat-added                     ((,class (:foreground ,type))))
         `(magit-diffstat-removed                   ((,class (:foreground ,var))))
         `(magit-process-ok                         ((,class (:foreground ,func :weight bold))))
