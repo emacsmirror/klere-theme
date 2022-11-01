@@ -274,7 +274,8 @@
         `(jde-java-font-lock-number-face           ((,class (:foreground ,var))))))
  (custom-theme-set-variables
   'klere
-  '(org-ellipsis " ▼"))
+  '(org-ellipsis                       " ▼")
+  '(org-fontify-quote-and-verse-blocks t))
 
 ;;;###autoload
 (when load-file-name
