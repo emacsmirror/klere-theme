@@ -198,7 +198,7 @@
         `(magit-process-ng                         ((,class (:foreground ,warning :weight bold))))
         `(magit-branch                             ((,class (:foreground ,const   :weight bold))))
         `(magit-log-author                         ((,class (:foreground ,fg3))))
-        `(magit-hash                               ((,class (:foreground ,fg2))))
+        `(magit-hash                               ((,class (:foreground ,org-purple :bold t))))
         `(magit-diff-file-header                   ((,class (:foreground ,fg2 :background ,bg4))))
         `(lazy-highlight                           ((,class (:foreground ,fg2 :background ,bg4))))
         `(term                                     ((,class (:foreground ,fg1 :background ,bg1))))
