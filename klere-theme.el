@@ -94,7 +94,7 @@
         `(show-paren-mismatch                      ((,class (:foreground ,warning :slant italic :weight bold))))
         `(isearch                                  ((,class (:bold t :foreground ,warning :background ,bg4))))
         `(mode-line                                ((,class (:bold t :underline unspecified :foreground ,fg1 :background "#232323"))))
-        `(mode-line-inactive                       ((,class (:foreground ,fg4 :background ,bg2 :weight normal))))
+        `(mode-line-inactive                       ((,class (:foreground ,fg4 :background ,bg3 :weight normal))))
         `(mode-line-buffer-id                      ((,class (:bold t :foreground ,keyword :background nil))))
 	`(mode-line-highlight                      ((,class (:foreground ,func :box nil :weight bold))))
         `(mode-line-emphasis                       ((,class (:foreground ,fg1))))
