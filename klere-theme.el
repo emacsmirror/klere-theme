@@ -40,9 +40,10 @@
  (deftheme klere)
  (let ((class   '((class color) (min-colors 89)))
        (fg1                            "#FFFFFF")
-       (fg2                            "#e8e8e8")
-       (fg3                            "#d1d1d1")
-       (fg4                            "#bbbbbb")
+       (fg2                            "#767676")
+       (fg3                            "#e8e8e8")
+       (fg4                            "#d1d1d1")
+       (fg5                            "#bbbbbb")
        (bg1                            "#000000")
        (bg2                            "#111217") ;; "#101010"
        (bg3                            "#181818")
