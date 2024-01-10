@@ -104,6 +104,8 @@
         `(minibuffer-prompt                        ((,class (:bold t :foreground ,keyword))))
         `(default-italic                           ((,class (:italic t))))
 	`(link                                     ((,class (:foreground ,const :underline t))))
+        `(line-number                              ((,class (:foreground ,fg2))))
+        `(line-number-current-line                 ((,class (:foreground ,fg4))))
 	`(org-code                                 ((,class (:foreground ,const :inherit fixed-pitch))))
 	`(org-hide                                 ((,class (:foreground ,fg6))))
         `(org-level-1                              ((,class (:foreground ,fg1        :height 1.5  :bold t))))
