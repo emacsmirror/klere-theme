@@ -294,6 +294,27 @@
   '(org-ellipsis                       " ▼")
   '(org-fontify-quote-and-verse-blocks t))
 
+
+ (defvar klere---isearch-hl-line-p                   nil
+   "Boolean for the Klere Emacs theme to turn on `hl-line-mode' during `isearch'.")
+ (when klere---isearch-hl-line-p
+   (defvar klere---isearch-hl-line-major-modes-to-skip '()
+     "Major modes to not activate `hl-line-mode' in when using `isearch'.")
+
+   (defun klere-turn-on-hl-line-mode ()
+     (interactive)
+
+     (when (not (member major-mode klere---isearch-hl-line-major-modes-to-skip))
+       (hl-line-mode +1)))
+   (defun klere-turn-off-hl-line-mode ()
+     (interactive)
+
+     (when (not (member major-mode klere---isearch-hl-line-major-modes-to-skip))
+       (hl-line-mode -1)))
+
+   (add-hook 'isearch-mode-hook     #'klere-turn-on-hl-line-mode)
+   (add-hook 'isearch-mode-end-hook #'klere-turn-off-hl-line-mode))
+
 ;;;###autoload
 (when load-file-name
   (add-to-list 'custom-theme-load-path
