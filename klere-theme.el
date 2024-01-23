@@ -58,6 +58,7 @@
        (comment                        "#484848") ;; #e01d1d
        (func                           "#622f7d")
        (str                            "#1D8B15") ;; #34be34 (but darker and more green)
+       (neon                           "#7BE128")
        (type                           "#eab700")
        (var                            "#e87400")
        (warning                        "#ff0000")
