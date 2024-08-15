@@ -77,7 +77,7 @@
    'klere
         `(default                                  ((,class (:background ,bg2 :foreground ,fg1))))
         `(font-lock-builtin-face                   ((,class (:foreground ,builtin))))
-        `(font-lock-comment-face                   ((,class (:foreground ,comment))))
+        `(font-lock-comment-face                   ((,class (:foreground ,comment :slant italic))))
 	`(font-lock-negation-char-face             ((,class (:foreground ,const))))
 	`(font-lock-reference-face                 ((,class (:foreground ,const))))
 	`(font-lock-constant-face                  ((,class (:foreground ,const))))
