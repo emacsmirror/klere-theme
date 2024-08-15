@@ -289,7 +289,11 @@
         `(jde-java-font-lock-constant-face         ((,class (:foreground ,const))))
         `(jde-java-font-lock-modifier-face         ((,class (:foreground ,key3))))
         `(jde-jave-font-lock-protected-face        ((,class (:foreground ,keyword))))
-        `(jde-java-font-lock-number-face           ((,class (:foreground ,var))))))
+        `(jde-java-font-lock-number-face           ((,class (:foreground ,var))))
+        `(circe-originator-face                    ((,class (:weight     bold))))
+        `(circe-server-face                        ((,class (:inherit    font-lock-comment-face))))
+        `(circe-my-message-face                    ((,class (:background ,bg4))))
+        `(lui-time-stamp-face                      ((,class (:foreground "SlateBlue"))))))
  (custom-theme-set-variables
   'klere
   '(org-ellipsis                       " ▼")
