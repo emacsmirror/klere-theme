@@ -300,6 +300,7 @@
     '(org-fontify-quote-and-verse-blocks t))
 
 
+ ;; Search functionality
    (defvar klere---isearch-hl-line-p                   nil
      "Boolean for the Klere Emacs theme to turn on `hl-line-mode' during `isearch'.")
    (when klere---isearch-hl-line-p
