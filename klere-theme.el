@@ -295,8 +295,11 @@
         `(circe-my-message-face                    ((,class (:background ,bg4))))
         `(lui-time-stamp-face                      ((,class (:foreground "SlateBlue"))))
         `(wl-highlight-message-header-contents     ((,class (:foreground "mediumpurple"))))
+                                                             ;; message-header-name
         `(wl-highlight-message-headers             ((,class (:foreground "green"))))
+                                                                     ;; message-header-xheader
         `(wl-highlight-message-important-header-contents   ((,class (:foreground "deepskyblue1" :weight bold))))
+                                                                     ;; message-header-other
         `(wl-highlight-message-important-header-contents2  ((,class (:foreground "VioletRed1"   :weight bold))))
         `(wl-highlight-message-unimportant-header-contents ((,class (:foreground ,var))))
    (custom-theme-set-variables
