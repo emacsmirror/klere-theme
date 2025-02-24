@@ -293,7 +293,12 @@
         `(circe-originator-face                    ((,class (:weight     bold))))
         `(circe-server-face                        ((,class (:inherit    font-lock-comment-face))))
         `(circe-my-message-face                    ((,class (:background ,bg4))))
-        `(lui-time-stamp-face                      ((,class (:foreground "SlateBlue")))))
+        `(lui-time-stamp-face                      ((,class (:foreground "SlateBlue"))))
+        `(wl-highlight-message-header-contents     ((,class (:foreground "mediumpurple"))))
+        `(wl-highlight-message-headers             ((,class (:foreground "green"))))
+        `(wl-highlight-message-important-header-contents   ((,class (:foreground "deepskyblue1" :weight bold))))
+        `(wl-highlight-message-important-header-contents2  ((,class (:foreground "VioletRed1"   :weight bold))))
+        `(wl-highlight-message-unimportant-header-contents ((,class (:foreground ,var))))
    (custom-theme-set-variables
     'klere
     '(org-ellipsis                       " ▼")
