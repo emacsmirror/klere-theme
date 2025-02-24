@@ -302,6 +302,18 @@
                                                                      ;; message-header-other
         `(wl-highlight-message-important-header-contents2  ((,class (:foreground "VioletRed1"   :weight bold))))
         `(wl-highlight-message-unimportant-header-contents ((,class (:foreground ,var))))
+        `(wl-highlight-summary-normal-face                 ((,class (:foreground ,const))))
+        `(wl-highlight-summary-new-face            ((,class (:foreground "PaleGreen"    :weight bold))))
+        `(wl-highlight-summary-unread-face         ((,class (:foreground "#8AEE60"))))
+        `(wl-highlight-summary-low-unread-face     ((,class (:inherit    wl-highlight-summary-unread-face :slant  italic))))
+        `(wl-highlight-summary-high-unread-face    ((,class (:inherit    wl-highlight-summary-unread-face :weight bold))))
+        `(wl-highlight-summary-thread-top-face     ((,class (:foreground "SkyBlue"))))
+        `(wl-highlight-summary-high-read-face      ((,class (:inherit    wl-highlight-summary-thread-top-face :weight bold))))
+        `(wl-highlight-summary-low-read-face       ((,class (:inherit    wl-highlight-summary-thread-top-face :slant  italic))))
+        `(wl-highlight-summary-normal-face         ((,class (:foreground ,const))))
+        `(wl-highlight-summary-answered-face       ((,class (:foreground "steelblue2"))))
+        `(wl-highlight-summary-deleted-face        ((,class (:foreground ,type        :strike-through t :slant italic))))
+        `(wl-highlight-summary-disposed-face       ((,class (:foreground "gray"       :strike-through t))))
    (custom-theme-set-variables
     'klere
     '(org-ellipsis                       " ▼")
