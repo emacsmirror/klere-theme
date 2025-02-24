@@ -304,11 +304,17 @@
         `(wl-highlight-message-unimportant-header-contents ((,class (:foreground ,var))))
         `(wl-highlight-summary-normal-face                 ((,class (:foreground ,const))))
         `(wl-highlight-summary-new-face            ((,class (:foreground "PaleGreen"    :weight bold))))
+                                                             ;; gnus-summary-normal-read
         `(wl-highlight-summary-unread-face         ((,class (:foreground "#8AEE60"))))
+                                                             ;; gnus-summary-low-read
         `(wl-highlight-summary-low-unread-face     ((,class (:inherit    wl-highlight-summary-unread-face :slant  italic))))
+                                                             ;; gnus-summary-high-read
         `(wl-highlight-summary-high-unread-face    ((,class (:inherit    wl-highlight-summary-unread-face :weight bold))))
+                                                             ;; gnus-summary-normal-ancient
         `(wl-highlight-summary-thread-top-face     ((,class (:foreground "SkyBlue"))))
+                                                             ;; gnus-summary-high-ancient
         `(wl-highlight-summary-high-read-face      ((,class (:inherit    wl-highlight-summary-thread-top-face :weight bold))))
+                                                             ;; gnus-summary-low-ancient
         `(wl-highlight-summary-low-read-face       ((,class (:inherit    wl-highlight-summary-thread-top-face :slant  italic))))
         `(wl-highlight-summary-normal-face         ((,class (:foreground ,const))))
         `(wl-highlight-summary-answered-face       ((,class (:foreground "steelblue2"))))
