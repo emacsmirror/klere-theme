@@ -318,8 +318,9 @@
         `(wl-highlight-summary-low-read-face       ((,class (:inherit    wl-highlight-summary-thread-top-face :slant  italic))))
         `(wl-highlight-summary-normal-face         ((,class (:foreground ,const))))
         `(wl-highlight-summary-answered-face       ((,class (:foreground "steelblue2"))))
-        `(wl-highlight-summary-deleted-face        ((,class (:foreground ,type        :strike-through t :slant italic))))
+        `(wl-highlight-summary-deleted-face        ((,class (:foreground ,type        :strike-through t        :slant italic))))
         `(wl-highlight-summary-disposed-face       ((,class (:foreground "gray"       :strike-through t))))
+        `(wl-highlight-header-separator-face       ((,class (:foreground ,org-date-fg :background     ,org-bg2 :slant italic)))))
    (custom-theme-set-variables
     'klere
     '(org-ellipsis                       " ▼")
