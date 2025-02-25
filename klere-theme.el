@@ -56,7 +56,7 @@
        (keyword                        "#007bb3")
        (const                          "#00d1e0")
        (comment                        "#484848") ;; #e01d1d
-       (func                           "#622f7d")
+       (func                           "#622f7d") ;; #7B28E1 (brighter and pops more but too much?)
        (str                            "#1D8B15") ;; #34be34 (but darker and more green)
        (neon                           "#7BE128")
        (type                           "#eab700")
