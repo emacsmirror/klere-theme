@@ -325,7 +325,8 @@
         `(wl-highlight-summary-answered-face               ((,class (:foreground "steelblue2"))))
         `(wl-highlight-summary-deleted-face                ((,class (:foreground ,type        :strike-through t        :slant italic))))
         `(wl-highlight-summary-disposed-face               ((,class (:foreground "gray"       :strike-through t))))
-        `(wl-highlight-header-separator-face               ((,class (:foreground ,org-date-fg :background     ,org-bg2 :slant italic)))))
+        `(wl-highlight-header-separator-face               ((,class (:foreground ,org-date-fg :background     ,org-bg2 :slant italic))))
+        `(persp-selected-face                              ((,class (:foreground "Green1"     :weight         bold)))))
    (custom-theme-set-variables
     'klere
     '(org-ellipsis                       " ▼")
