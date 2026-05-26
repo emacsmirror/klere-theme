@@ -72,7 +72,8 @@
        (org-teal                       "#33948A")
        (silky-gray                     "#343A44")
        (magit-add                      "#22aa22") ;; #00cd00
-       (magit-remove                   "#aa2222"))
+       (magit-remove                   "#aa2222")
+       (popup-bg                       "#000109"))
    (custom-theme-set-faces
    'klere
         `(default                                          ((,class (:background ,bg2 :foreground ,fg1))))
@@ -257,13 +258,14 @@
         `(company-preview-search                           ((,class (:foreground ,type :background ,bg1))))
         `(company-scrollbar-bg                             ((,class (:background ,bg4))))
         `(company-scrollbar-fg                             ((,class (:foreground ,keyword))))
-        `(company-tooltip                                  ((,class (:foreground ,fg1 :background ,bg1))))
+        `(company-tooltip                                  ((,class (:foreground ,fg1 :background ,popup-bg))))
         `(company-tooltop-annotation                       ((,class (:foreground ,const))))
         `(company-tooltip-common                           ((,class (:foreground ,fg5))))
         `(company-tooltip-common-selection                 ((,class (:foreground ,builtin :italic t :bold nil))))
         `(company-tooltip-mouse                            ((,class (:inherit highlight))))
         `(company-tooltip-selection                        ((,class (:background ,silky-gray :foreground ,fg1 :bold t))))
         `(company-template-field                           ((,class (:inherit region))))
+        `(popup-face                                       ((,class (:foreground ,fg1 :background ,popup-bg))))
         `(web-mode-builtin-face                            ((,class (:inherit    font-lock-builtin-face))))
         `(web-mode-comment-face                            ((,class (:inherit    font-lock-comment-face))))
         `(web-mode-constant-face                           ((,class (:inherit    font-lock-constant-face))))
