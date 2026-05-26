@@ -73,7 +73,8 @@
        (silky-gray                     "#343A44")
        (magit-add                      "#22aa22") ;; #00cd00
        (magit-remove                   "#aa2222")
-       (popup-bg                       "#000109"))
+       (popup-bg                       "#000109")
+       (popup-tip-bg                   "#171724"))
    (custom-theme-set-faces
    'klere
         `(default                                          ((,class (:background ,bg2 :foreground ,fg1))))
@@ -267,6 +268,7 @@
 	`(ac-completion-face                               ((,class (:underline t :foreground ,keyword))))
         `(popup-face                                       ((,class (:foreground ,fg1 :background ,popup-bg))))
         `(popup-menu-selection-face                        ((,class (:background ,silky-gray :foreground ,fg1 :bold t))))
+        `(popup-tip-face                                   ((,class (:foreground ,fg3 :background ,popup-tip-bg))))
         `(web-mode-builtin-face                            ((,class (:inherit    font-lock-builtin-face))))
         `(web-mode-comment-face                            ((,class (:inherit    font-lock-comment-face))))
         `(web-mode-constant-face                           ((,class (:inherit    font-lock-constant-face))))
