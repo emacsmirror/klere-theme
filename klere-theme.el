@@ -266,6 +266,7 @@
         `(company-template-field                           ((,class (:inherit region))))
 	`(ac-completion-face                               ((,class (:underline t :foreground ,keyword))))
         `(popup-face                                       ((,class (:foreground ,fg1 :background ,popup-bg))))
+        `(popup-menu-selection-face                        ((,class (:background ,silky-gray :foreground ,fg1 :bold t))))
         `(web-mode-builtin-face                            ((,class (:inherit    font-lock-builtin-face))))
         `(web-mode-comment-face                            ((,class (:inherit    font-lock-comment-face))))
         `(web-mode-constant-face                           ((,class (:inherit    font-lock-constant-face))))
