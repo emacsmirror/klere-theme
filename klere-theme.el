@@ -70,10 +70,10 @@
        (org-green                      "#339443")
        (org-purple                     "#653394")
        (org-teal                       "#33948A")
-       (silky-gray                     "#343A44")
        (magit-add                      "#22aa22") ;; #00cd00
        (magit-remove                   "#aa2222")
        (popup-bg                       "#000109")
+       (popup-sel-bg                   "#343A44")
        (popup-tip-bg                   "#171724"))
    (custom-theme-set-faces
    'klere
@@ -263,11 +263,11 @@
         `(company-tooltip-common                           ((,class (:foreground ,fg5))))
         `(company-tooltip-common-selection                 ((,class (:foreground ,builtin :italic t :bold nil))))
         `(company-tooltip-mouse                            ((,class (:inherit highlight))))
-        `(company-tooltip-selection                        ((,class (:background ,silky-gray :foreground ,fg1 :bold t))))
+        `(company-tooltip-selection                        ((,class (:background ,popup-sel-bg :foreground ,fg1 :bold t))))
         `(company-template-field                           ((,class (:inherit region))))
 	`(ac-completion-face                               ((,class (:underline t :foreground ,keyword))))
         `(popup-face                                       ((,class (:foreground ,fg1 :background ,popup-bg))))
-        `(popup-menu-selection-face                        ((,class (:background ,silky-gray :foreground ,fg1 :bold t))))
+        `(popup-menu-selection-face                        ((,class (:background ,popup-sel-bg :foreground ,fg1 :bold t))))
         `(popup-tip-face                                   ((,class (:foreground ,fg3 :background ,popup-tip-bg))))
         `(web-mode-builtin-face                            ((,class (:inherit    font-lock-builtin-face))))
         `(web-mode-comment-face                            ((,class (:inherit    font-lock-comment-face))))
